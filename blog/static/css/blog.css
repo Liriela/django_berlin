@@ -1,6 +1,12 @@
+.container {
+    width: 900px;
+    margin: 0px auto 0px auto;
+}
+
 .page-header {
-    background-color: #ff9400;
-    margin-top: 0;
+    width: 870px;
+    background-color: #6699CC;
+    margin: 10px auto 20px auto;
     padding: 20px 20px 20px 40px;
 }
 
@@ -11,8 +17,12 @@
 }
 
 .content {
-    margin-left: 40px;
+    width:870px;
+    background-color: #C4DDF4;
+    margin-top: -10px;
+    margin-bottom: 50px;
 }
+
 
 h1, h2, h3, h4 {
     font-family: 'Lobster', cursive;
@@ -32,9 +42,9 @@ h1, h2, h3, h4 {
 }
 
 .top-menu, .top-menu:hover, .top-menu:visited {
-    color: #ffffff;
+    text-color: grey;
     float: right;
-    font-size: 26pt;
+    /*font-size: 26pt;*/
     margin-right: 20px;
 }
 
@@ -44,4 +54,16 @@ h1, h2, h3, h4 {
 
 .post h1 a, .post h1 a:visited {
     color: #000000;
+}
+
+.footer {
+    background-color: #6699CC;
+    margin-top: 10px;
+    padding: 20px 20px 20px 40px;
+}
+
+.footer p {
+    font-family: 'Lobster', cursive;
+    color: #ffffff;
+    text-align: center;
 }
